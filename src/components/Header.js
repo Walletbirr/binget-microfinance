@@ -47,13 +47,13 @@ export default function Header() {
 
     useEffect(() => {
         console.log(pathName)
-        if (pathName=='/') {
+        if (pathName == '/') {
             setActive('Home')
         }
         if (pathName.includes('products')) {
             setActive("Products & Sevices");
         }
-        
+
         if (pathName.includes('about')) {
             setActive("About Us");
         }
@@ -154,7 +154,7 @@ export default function Header() {
                 >
                     <div className="px-4 pb-4 flex flex-col space-y-3">
                         {navItems.map((item) =>
-                            item.name === "Investments" ? (
+                            item.name === "Products & Sevices" ? (
                                 <div key={item.name}>
                                     <button
                                         onClick={() => setInvestmentsOpen((prev) => !prev)}
@@ -181,11 +181,10 @@ export default function Header() {
                                                     <li key={div.name}>
                                                         <button
                                                             onClick={() => {
-                                                                setActive("Investments");
+                                                                setActive("Products & Sevices");
                                                                 router.push(div.path);
-                                                                setMenuOpen(false);
                                                             }}
-                                                            className="text-gray-700 hover:text-blue-600 text-left w-full"
+                                                            className="w-full text-left px-4 py-2 hover:bg-blue-50 text-gray-700"
                                                         >
                                                             {div.name}
                                                         </button>

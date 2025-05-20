@@ -86,7 +86,8 @@ export default function AboutUs() {
     ]
 
     return (
-        <div className="bg-white text-gray-800 ">
+            <main className="min-h-screen bg-white text-gray-800 overflow-hidden">
+
             {/* Hero Section */}
             <motion.div
                 initial="hidden"
@@ -166,7 +167,7 @@ export default function AboutUs() {
 
 
             {/* Mission & Vision */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-20 px-[200px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-20 px-[10%]">
                 <motion.div
                     variants={fadeInUp}
                     initial="hidden"
@@ -318,6 +319,6 @@ export default function AboutUs() {
                     ))}
                 </div>
             </motion.div>
-        </div>
+        </main>
     );
 }

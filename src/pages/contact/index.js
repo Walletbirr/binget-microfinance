@@ -8,22 +8,22 @@ export default function ContactInfo() {
         {
             icon: <FaPhoneAlt className="text-2xl text-blue-800" />,
             title: "CALL US",
-            content: "+251-11-673-3674",
+            content: "+251-12-234-5678",
         },
         {
             icon: <FaPhone className="text-2xl text-blue-800" />,
             title: "FREE CALL NUMBER",
-            content: "9310",
+            content: "626",
         },
         {
             icon: <FaEnvelope className="text-2xl text-blue-800" />,
             title: "EMAIL US:",
-            content: "info@visionfundmfi.com",
+            content: "info@bingetmfi.com",
         },
         {
             icon: <FaMapMarkerAlt className="text-2xl text-blue-800" />,
             title: "LOCATION",
-            content: "Gerji Mebrat Hail, Addis Ababa, Ethiopia",
+            content: "Bole, Around japan Embassy, Rang Building 11th floor",
         },
     ];
     const branches = [
