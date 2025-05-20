@@ -8,23 +8,23 @@ export default function HomePage() {
   const homeItems = [
     {
       image: 'bg.png',
-      title: 'BINGET Microfinance',
-      description: 'Come, Let us build the future today!',
+      title: 'ቢንጌት ማይክሮፋይናንስ ኢንስቲትዩሽን',
+      description: 'ኑ! ነገን ዛረ እንስራ',
     },
     {
       image: '/saving1.jpg',
-      title: 'Saving Options',
-      description: 'For every dream, there`s a savings plan!',
+      title: 'የቁጠባ አማራጮች',
+      description: 'ለሁሉም ህልሞቻችሁ መሳካት የሚረዱ የቁጠባ አይነቶች!',
     },
     {
       image: '/loan_bg.jpg',
-      title: 'Credit Products',
-      description: 'We believe in your goals—let us fund them.',
+      title: 'የብድር አማራጮች',
+      description: 'አላማችሁን ለማሳካት ከእኛ ይበደሩ!',
     },
     {
-      title: "Mobile Money",
+      title: "የሞባይል ገንዘብ ማስተላለፊያ",
       image: "/bingetBirr.png",
-      description: "A next-generation digital financial services platform, providing a seamless and secure ecosystem for businesses, agents, and individual users."
+      description: "የቢንጌት ብርን የሞባይል ገንዘብ ማስተላለፊያ በመጠቀም ሂወትዎን ያዘምኑ!"
     }
   ]
 

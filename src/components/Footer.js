@@ -7,24 +7,6 @@ const Footer = () => {
   const router = useRouter()
   return (
     <footer className="bg-[#f7d708] text-white pt-16 relative z-10">
-      {/* Top Icons */}
-      {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto px-6 pb-12 border-b border-orange-500">
-        {[
-            // { icon: <FaAddressBook />, label: 'OPEN AN ACCOUNT' },
-          { icon: <FaMapMarkerAlt />, label: 'BRANCHES' },
-          { icon: <FaDownload />, label: 'DOWNLOAD Binget Birr' },
-          { icon: <FaHashtag />, label: 'DIAL *626#' },
-          { icon: <FaPhoneAlt />, label: 'CONTACT US' }].map(({ icon, label }, i) => (
-          <div key={i} className="text-center space-y-2 place-items-center">
-            <div className="text-4xl text-blue-900">{icon}</div>
-            <p className="font-semibold text-blue-900">{label}</p>
-          </div>
-        ))}
-      </div> */}
-
-      {/* Middle Info */}
-      {/* Call to Action */}
-
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto px-6 py-10 text-sm">
         <div>
           <h5 onClick={()=>router.push('/about')} className="cursor-pointer text-orange-500 font-bold mb-2">ABOUT US</h5>
@@ -45,8 +27,8 @@ const Footer = () => {
         <div>
           <h5 className="text-orange-500 font-bold mb-2">CONTACT US</h5>
           <p>Bole Road, Around Japan Embacy, Rang Building 11th Floor</p>
-          <p>info@bmf.com</p>
-          <p>+251-12-345-6789</p>
+          <p>walletmfisc@gmail.com</p>
+          <p>+251 1161 627 77</p>
         </div>
       </div>
 

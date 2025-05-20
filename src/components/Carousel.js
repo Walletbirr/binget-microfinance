@@ -28,7 +28,7 @@ export default function Carousel({ items }) {
 
     const interval = setInterval(() => {
       slider.next()
-    }, 5000) // Change slide every 5 seconds
+    }, 10000)
 
     return () => {
       clearInterval(interval)
@@ -49,13 +49,13 @@ export default function Carousel({ items }) {
               alt={item.title}
               className="w-full h-screen object-cover"
             />
-            <div className='absolute h-full w-full justify-left content-center text-left p-[100px]'>
+            <div className='absolute h-full w-full justify-left content-center text-left p-[10%]'>
               <motion.h1
                 className=" mb-2 left-[100px]"
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
-                style={{ color: 'white', fontSize: 60, fontWeight: 'bold' }}
+                style={{ color: 'black', fontSize: 55, fontWeight: 'bold' }}
               >
                 {item.title}
               </motion.h1>
@@ -64,9 +64,31 @@ export default function Carousel({ items }) {
                 initial={{ opacity: 0, x: 200 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
-                style={{ color: 'white', width: '50%', fontSize: 20 }}
+                style={{ color: 'black', width: '50%', fontSize: 20 }}
               >
                 {item.description}
+              </motion.div>
+
+              <motion.div
+                className=" text-gray-600 top-100 left-[100px] text-left"
+                initial={{ opacity: 0, x: 200 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6 }}
+              >
+                <div className="flex justify-center gap-4 mt-6 flex-wrap">
+                  <a
+                    href="tel:+1234567890"
+                    className="flex items-center gap-2 px-6 py-3 bg-[#f7d708] text-white rounded-full shadow-md hover:bg-[#bc1f2d] transition-all duration-300"
+                  >
+                    <span role="img" aria-label="phone">📞</span> +251 9751 314 15
+                  </a>
+                  <a
+                    href="tel:+1987654321"
+                    className="flex items-center gap-2 px-6 py-3 bg-[#f7d708] text-white rounded-full shadow-md hover:bg-[#bc1f2d] transition-all duration-300"
+                  >
+                    <span role="img" aria-label="phone">📞</span> +251 9751 314 15
+                  </a>
+                </div>
               </motion.div>
             </div>
 

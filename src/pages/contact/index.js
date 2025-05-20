@@ -8,17 +8,17 @@ export default function ContactInfo() {
         {
             icon: <FaPhoneAlt className="text-2xl text-blue-800" />,
             title: "CALL US",
-            content: "+251-12-234-5678",
+            content: "+251 1161 627 77",
         },
         {
             icon: <FaPhone className="text-2xl text-blue-800" />,
-            title: "FREE CALL NUMBER",
-            content: "626",
+            title: "MOBILE MONEY",
+            content: "6221",
         },
         {
             icon: <FaEnvelope className="text-2xl text-blue-800" />,
             title: "EMAIL US:",
-            content: "info@bingetmfi.com",
+            content: "walletmfisc@gmail.com",
         },
         {
             icon: <FaMapMarkerAlt className="text-2xl text-blue-800" />,
