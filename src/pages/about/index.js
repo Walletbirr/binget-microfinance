@@ -86,8 +86,8 @@ export default function AboutUs() {
     ]
 
     return (
-            <main className="min-h-screen bg-white text-gray-800 overflow-hidden">
-
+        <main className="min-h-screen bg-white text-gray-800 overflow-hidden">
+            <img src='/shape.svg' className='absolute h-screen w-full' />
             {/* Hero Section */}
             <motion.div
                 initial="hidden"
@@ -264,26 +264,26 @@ export default function AboutUs() {
             </motion.div>
 
             <section className="py-16 bg-gray-50">
-                    <div className="max-w-6xl mx-auto px-4 text-center">
-                        <h2 className="text-3xl font-bold mb-10">Meet Our Team</h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-                            {team.map((member, index) => (
-                                <div
-                                    key={index}
-                                    className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300"
-                                >
-                                    <img
-                                        src={member.photo}
-                                        alt={member.name}
-                                        className="w-32 h-32 mx-auto rounded-full object-cover mb-4 border-4 border-gray-200"
-                                    />
-                                    <h3 className="text-lg font-semibold">{member.name}</h3>
-                                    <p className="text-gray-500 text-sm">{member.position}</p>
-                                </div>
-                            ))}
-                        </div>
+                <div className="max-w-6xl mx-auto px-4 text-center">
+                    <h2 className="text-3xl font-bold mb-10">Meet Our Team</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                        {team.map((member, index) => (
+                            <div
+                                key={index}
+                                className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300"
+                            >
+                                <img
+                                    src={member.photo}
+                                    alt={member.name}
+                                    className="w-32 h-32 mx-auto rounded-full object-cover mb-4 border-4 border-gray-200"
+                                />
+                                <h3 className="text-lg font-semibold">{member.name}</h3>
+                                <p className="text-gray-500 text-sm">{member.position}</p>
+                            </div>
+                        ))}
                     </div>
-                </section>
+                </div>
+            </section>
 
             {/* Testimonials Carousel */}
             <motion.div

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-white text-gray-800 overflow-hidden">
+    <main className="min-h-screen bg-white text-gray-800 overflow-hidden bg-[/shape.svg]">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-100 to-green-50 py-20 px-6 md:px-20 text-center pt-30">
         <motion.div

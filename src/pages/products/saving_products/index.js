@@ -4,20 +4,6 @@ import { motion } from 'framer-motion';
 
 const savingsOptions = [
   {
-    title: 'ORDINARY SAVING',
-    points: [
-      '👉 This is a regular saving account available to all clients.',
-      '👉 Convenient and secure withdrawal and deposit services',
-    ],
-  },
-  {
-    title: 'SPECIAL ORDINARY SAVING',
-    points: [
-      '👉 It is designed for clients to save money for the purpose of celebrating a special occasion.',
-      '👉 Attractive Saving Interest Rates',
-    ],
-  },
-  {
     title: 'TIME DEPOSIT',
     points: [
       '👉 Save for a fixed time with higher interest rate',
@@ -26,10 +12,17 @@ const savingsOptions = [
     ],
   },
   {
-    title: 'COIN BOX SAVING',
+    title: 'ASSET ACQUISATION FUND SAVING',
     points: [
-      '👉 Save small amounts of money regularly using a coin box.',
-      '👉 Encourages customers to develop saving habits & promotes wise financial decisions',
+      '👉 It is designed for clients to save money for the the goal of acquiring a tangible asset.',
+      '👉 Attractive Saving Interest Rates',
+    ],
+  },
+  {
+    title: 'REGULAR VOLUNTARY SAVING',
+    points: [
+      '👉 This is a regular saving account available to all clients.',
+      '👉 Convenient and secure withdrawal and deposit services',
     ],
   },
   {
@@ -40,24 +33,17 @@ const savingsOptions = [
     ],
   },
   {
-    title: "WOMEN'S SAVING",
+    title: 'BOX SAVING',
     points: [
-      '👉 Designed for women aged 18+',
-      '👉 Competitive interest rates are offered',
+      '👉 Save small amounts of money regularly using a coin box.',
+      '👉 Encourages customers to develop saving habits & promotes wise financial decisions',
     ],
   },
   {
-    title: 'LETENAYE SAVING',
+    title: "INSTITUTIONAL SAVING",
     points: [
-      '👉 Designed for clients to save for their health-related expenses like medical care or supplies.',
-      '👉 Offers better interest rate',
-    ],
-  },
-  {
-    title: 'ASRAT BEKURAT SAVING',
-    points: [
-      '👉 Designed for clients to save for their religious obligations or donations with better interest rates that support their purpose.',
-      '👉 Competitive interest rate is offered',
+      '👉 ',
+      '👉 ',
     ],
   },
 ];

@@ -8,6 +8,7 @@ const navItems = [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
     { name: "Products & Sevices" },
+    { name: "News",path:'/news' },
     { name: "Contact", path: "/contact" },
 ];
 
@@ -56,6 +57,9 @@ export default function Header() {
 
         if (pathName.includes('about')) {
             setActive("About Us");
+        }
+        if (pathName.includes('news')) {
+            setActive("News");
         }
     }, [pathName])
 

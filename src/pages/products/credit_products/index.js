@@ -3,55 +3,7 @@
 import { motion } from 'framer-motion';
 
 const savingsOptions = [
-  {
-    title: 'AGRECULTURAL LOAN',
-    points: [
-      '👉 This loan is designed for clients to purchase farming inputs.',
-      '👉 👉 Provided for group of farmers.',
-    ],
-  },
-  {
-    title: 'AGRI-BUSINESS LOAN',
-    points: [
-      '👉 This is a loan for clients to expand and modernize their agribusinesses',
-      '👉 Provided for group of applicants',
-    ],
-  },
-  {
-    title: 'INDIVIDUAL AGRECULTURE LOAN',
-    points: [
-      '👉 For individual farmers, who want to purchase agrecultural inputs and expand their farming',
-      '👉 Provided for individual farmers',
-    ],
-  },
-  {
-    title: 'BUSINESS LOAN',
-    points: [
-      '👉 This is a loan designed for small business enterprise owners to expand or advance their business activities',
-      '👉 Provided for group of small business owners.',
-    ],
-  },
-  {
-    title: 'FAMILY LOAN',
-    points: [
-      '👉 It is a salary-based consumption loan.',
-      '👉 Provided for individuals',
-    ],
-  },
-  {
-    title: "INDIVIDUAL LOAN",
-    points: [
-      '👉 This is a loan designed for clients to expand or grow their business',
-      '👉 Provided for individuals',
-    ],
-  },
-  {
-    title: 'WEDP LOAN',
-    points: [
-      '👉 It is for women enterpreneurs to expand or grow their business',
-      '👉 Provided for individuals',
-    ],
-  },
+  
   {
     title: 'SME LOAN',
     points: [
@@ -60,40 +12,97 @@ const savingsOptions = [
     ],
   },
   {
-    title: 'WASH LOAN',
+    title: 'SHORT TERM LOANS',
+    points: [
+      '👉 This loan is designed for clients to purchase farming inputs.',
+      '👉 Provided for group of farmers.',
+    ],
+  },
+  {
+    title: 'GROUP MICRO-BUSINESS LOAN',
+    points: [
+      '👉 For individual farmers, who want to purchase agrecultural inputs and expand their farming',
+      '👉 Provided for group of applicants',
+    ],
+  },
+  {
+    title: 'INDIVIDUAL MICRO-BUSINESS LOAN',
+    points: [
+      '👉 For individual farmers, who want to purchase agrecultural inputs and expand their farming',
+      '👉 Provided for individual farmers',
+    ],
+  },
+  {
+    title: 'CONSUMER LOAN',
+    points: [
+      '👉 For individual farmers, who want to purchase agrecultural inputs and expand their farming',
+      '👉 Provided for individual farmers',
+    ],
+  },
+  {
+    title: 'ENERGY LOAN',
+    points: [
+      '👉 For individual farmers, who want to purchase agrecultural inputs and expand their farming',
+      '👉 Provided for individual farmers',
+    ],
+  },
+  {
+    title: 'AGRICULTURE LOAN',
+    points: [
+      '👉 This is a loan for clients to expand and modernize their agribusinesses',
+      '👉 Provided for group of applicants',
+    ],
+  },
+  {
+    title: 'WOMAN ENTERPRENEURS LOAN',
+    points: [
+      '👉 It is for women enterpreneurs to expand or grow their business',
+      '👉 Provided for individuals',
+    ],
+  },
+  {
+    title: 'ASSET ACQUISITION LOAN',
+    points: [
+      '👉 This is a loan designed for small business enterprise owners to expand or advance their business activities',
+      '👉 Provided for group of small business owners.',
+    ],
+  },
+  {
+    title: 'EDUCATION LOAN',
+    points: [
+      '👉 It is a salary-based consumption loan.',
+      '👉 Provided for individuals',
+    ],
+  },
+  {
+    title: "MICRO CREDIT LOAN",
+    points: [
+      '👉 This is a loan designed for clients to expand or grow their business',
+      '👉 Provided for individuals',
+    ],
+  },
+  {
+    title: 'ENTERPRISE EMPLOYEES MICRO-CREDIT LOAN',
     points: [
       '👉 This loan type is designed to help customers meet their clean water sanitation and hygiene needs',
       '👉 Provided for individuals',
     ],
   },
   {
-    title: 'SOLAR LOAN',
+    title: 'MERCHANT/AGENT MICRO-CREDIT LOAN',
     points: [
       '👉 This loan service is provided to communities living in areas with limited access to electricity and is used to purchase solar energy equipments & other related products',
       '👉 Provided for individuals or in groups.',
     ],
   },
   {
-    title: 'SCHOOL LOAN',
+    title: 'ENTERPRISE MICRO CREDIT LOAN',
     points: [
       '👉 It is a loan provided to schools to conduct additional class rooms, purchase educational materials, and fulfil other school related necessities.',
       '👉 Provided for individuals',
     ],
   },
-  {
-    title: 'HOUSE AND VEHICLE LOAN',
-    points: [
-      '👉 A type of loan  designed for customers who want to buy a new house as well as renovate the existing.',
-      '👉 Provided for individuals',
-    ],
-  },
-  {
-    title: 'VEHICLE LOAN',
-    points: [
-      '👉 A type of loan designed for customers who want to buy a vehicle for commercial or private use purposes.',
-      '👉 Provided for individuals',
-    ],
-  },
+  
 ];
 
 export default function SavingsOptions() {

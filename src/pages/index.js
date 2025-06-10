@@ -9,7 +9,7 @@ export default function HomePage() {
     {
       image: 'bg.png',
       title: 'ቢንጌት ማይክሮፋይናንስ ኢንስቲትዩሽን',
-      description: 'ኑ! ነገን ዛረ እንስራ',
+      description: 'ኑ! ነገን ዛሬ እንስራ',
     },
     {
       image: '/saving1.jpg',

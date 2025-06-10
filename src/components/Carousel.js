@@ -45,9 +45,10 @@ export default function Carousel({ items }) {
             className="keen-slider__slide flex flex-col items-center justify-center bg-white shadow-lg text-center"
           >
             <img
-              src={item.image}
+              src={'/shape.svg'}
+              // src={item.image}
               alt={item.title}
-              className="w-full h-screen object-cover"
+              className="w-full h-screen object-cover opacity-70"
             />
             <div className='absolute h-full w-full justify-left content-center text-left p-[10%]'>
               <motion.h1
