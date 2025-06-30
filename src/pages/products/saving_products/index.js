@@ -42,8 +42,8 @@ const savingsOptions = [
   {
     title: "INSTITUTIONAL SAVING",
     points: [
-      '👉 ',
-      '👉 ',
+      '👉 aaaaa',
+      '👉 aaaaa',
     ],
   },
 ];
