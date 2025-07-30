@@ -81,7 +81,7 @@ export default function Carousel({ items }) {
                     href="tel:+1234567890"
                     className="flex items-center gap-2 px-6 py-3 bg-[#f7d708] text-white rounded-full shadow-md hover:bg-[#bc1f2d] transition-all duration-300"
                   >
-                    <span role="img" aria-label="phone">📞</span> +251 9751 314 15
+                    <span role="img" aria-label="phone">📞</span> +251 116 162 777
                   </a>
                   <a
                     href="tel:+1987654321"
@@ -89,12 +89,7 @@ export default function Carousel({ items }) {
                   >
                     <span role="img" aria-label="phone">📞</span> 6221
                   </a>
-                  <a
-                    href="tel:+1987654321"
-                    className="flex items-center gap-2 px-6 py-3 bg-[#f7d708] text-white rounded-full shadow-md hover:bg-[#bc1f2d] transition-all duration-300"
-                  >
-                    <span role="img" aria-label="phone">📞</span> +251 9751 314 15
-                  </a>
+                  
                 </div>
               </motion.div>
             </div>
