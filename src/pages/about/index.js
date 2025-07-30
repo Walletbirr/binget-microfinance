@@ -17,7 +17,7 @@ const fadeInUp = {
 
 const team = [
     {
-        name: "Mr. Belete",
+        name: "Mr. Belete Workalemaw",
         position: "Chief Executive Officer",
         photo: "/ceo.jpg",
     },
@@ -33,7 +33,7 @@ const team = [
     },
     {
         name: "Mr. Getachew Adera",
-        position: "Risk Manager",
+        position: "Operation Manager",
         photo: "/male.jpeg",
     },
 ];
@@ -263,7 +263,7 @@ export default function AboutUs() {
                 </div>
             </motion.div>
 
-            <section className="py-16 bg-gray-50">
+            {/* <section className="py-16 bg-gray-50">
                 <div className="max-w-6xl mx-auto px-4 text-center">
                     <h2 className="text-3xl font-bold mb-10">Meet Our Team</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -283,7 +283,7 @@ export default function AboutUs() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Testimonials Carousel */}
             <motion.div

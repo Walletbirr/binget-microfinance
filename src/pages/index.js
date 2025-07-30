@@ -2,29 +2,30 @@ import Carousel from "@/components/Carousel";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import AboutUs from "./about";
 
 export default function HomePage() {
   const router = useRouter()
   const homeItems = [
     {
       image: 'bg.png',
-      title: 'ቢንጌት ማይክሮፋይናንስ ኢንስቲትዩሽን',
-      description: 'ኑ! ነገን ዛሬ እንስራ',
+      title: 'BINGET Microfinance Institute',
+      description: 'Let`s Build tomorrow, today',
     },
     {
       image: '/saving1.jpg',
-      title: 'የቁጠባ አማራጮች',
-      description: 'ለሁሉም ህልሞቻችሁ መሳካት የሚረዱ የቁጠባ አይነቶች!',
+      title: 'Saving Options',
+      description: "At BINGET Microfinance, we believe in empowering individuals and communities through accessible and flexible savings solutions. Our range of savings products is designed to help you achieve your financial goals—whether you're planning for the future, building an emergency fund, or saving for your business.",
     },
     {
       image: '/loan_bg.jpg',
-      title: 'የብድር አማራጮች',
-      description: 'አላማችሁን ለማሳካት ከእኛ ይበደሩ!',
+      title: 'Loan Options',
+      description: "At BINGET Microfinance, we offer a variety of loan products designed to support your financial journey—whether you're growing a small business, covering household expenses, investing in agriculture, or planning for education",
     },
     {
-      title: "የሞባይል ገንዘብ ማስተላለፊያ",
+      title: "Mobile Money",
       image: "/bingetBirr.png",
-      description: "የቢንጌት ብርን የሞባይል ገንዘብ ማስተላለፊያ በመጠቀም ሂወትዎን ያዘምኑ!"
+      description: "Stay connected to your finances anytime, anywhere with [Your Microfinance Name]’s secure and easy-to-use mobile money platform. Whether you're sending or receiving money, paying bills, topping up airtime, or repaying your loan, our platform brings the power of banking right to your phone."
     }
   ]
 
@@ -144,6 +145,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <AboutUs/>
     </main>
   );
 }

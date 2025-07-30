@@ -10,6 +10,7 @@ const Footer = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto px-6 py-10 text-sm">
         <div>
           <h5 onClick={()=>router.push('/about')} className="cursor-pointer text-orange-500 font-bold mb-2">ABOUT US</h5>
+          <h5 onClick={()=>router.push('/news')} className="cursor-pointer text-orange-500 font-bold mb-2">NEWS</h5>
         </div>
         <div>
           <h5 className="text-orange-500 font-bold mb-2">PRODUCTS & SERVICES</h5>

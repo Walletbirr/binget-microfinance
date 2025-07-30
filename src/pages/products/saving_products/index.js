@@ -6,46 +6,47 @@ const savingsOptions = [
   {
     title: 'TIME DEPOSIT',
     points: [
-      '👉 Save for a fixed time with higher interest rate',
-      '👉 Interest rates vary by deposit amount and time',
-      '👉 Interest will be paid on a monthly basis.',
+      '👉 Save for a predetermined period with a higher interest rate ',
+      '👉 Interest payments available with flexible options '
     ],
   },
   {
     title: 'ASSET ACQUISATION FUND SAVING',
     points: [
-      '👉 It is designed for clients to save money for the the goal of acquiring a tangible asset.',
-      '👉 Attractive Saving Interest Rates',
+      '👉 Tailored for clients aiming to save for the purpose of acquiring a physical asset. ',
+      '👉 Competitive interest rates and priority access to loans ',
     ],
   },
   {
     title: 'REGULAR VOLUNTARY SAVING',
     points: [
-      '👉 This is a regular saving account available to all clients.',
-      '👉 Convenient and secure withdrawal and deposit services',
+      '👉 A regular (passbook) savings account that allows deposits and withdrawals at any time'
     ],
   },
   {
     title: 'YOUTH AND CHILDREN SAVING',
     points: [
-      '👉 Individuals between the ages of 0 and 30 are eligible to open this account.',
-      '👉 Competitive interest rates are offered',
+      '👉 Special interest rates distinct from other savings products',
     ],
   },
   {
-    title: 'BOX SAVING',
+    title: 'EDUCATION SAVING',
     points: [
-      '👉 Save small amounts of money regularly using a coin box.',
-      '👉 Encourages customers to develop saving habits & promotes wise financial decisions',
+      '👉 Savings for individuals planning to pursue education '
     ],
   },
   {
     title: "INSTITUTIONAL SAVING",
     points: [
-      '👉 aaaaa',
-      '👉 aaaaa',
+      '👉 Designed for governmental and non-governmental organizations, as well as social unions like idir, ekub, etc.',
     ],
   },
+  {
+    title: "WOMAN SAVING",
+    points:[
+      ' We offer specially tailored savings options for women'
+    ]
+  }
 ];
 
 export default function SavingsOptions() {

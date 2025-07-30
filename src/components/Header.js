@@ -186,6 +186,8 @@ export default function Header() {
                                                         <button
                                                             onClick={() => {
                                                                 setActive("Products & Sevices");
+                                                                setMenuOpen(!menuOpen)
+                                                                setInvestmentsOpen(!divisionsOpen)
                                                                 router.push(div.path);
                                                             }}
                                                             className="w-full text-left px-4 py-2 hover:bg-blue-50 text-gray-700"

@@ -65,7 +65,7 @@ export default function Carousel({ items }) {
                 initial={{ opacity: 0, x: 200 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
-                style={{ color: 'black', width: '50%', fontSize: 20 }}
+                style={{ color: 'black', fontSize: 20 }}
               >
                 {item.description}
               </motion.div>
@@ -82,6 +82,12 @@ export default function Carousel({ items }) {
                     className="flex items-center gap-2 px-6 py-3 bg-[#f7d708] text-white rounded-full shadow-md hover:bg-[#bc1f2d] transition-all duration-300"
                   >
                     <span role="img" aria-label="phone">📞</span> +251 9751 314 15
+                  </a>
+                  <a
+                    href="tel:+1987654321"
+                    className="flex items-center gap-2 px-6 py-3 bg-[#f7d708] text-white rounded-full shadow-md hover:bg-[#bc1f2d] transition-all duration-300"
+                  >
+                    <span role="img" aria-label="phone">📞</span> 6221
                   </a>
                   <a
                     href="tel:+1987654321"
