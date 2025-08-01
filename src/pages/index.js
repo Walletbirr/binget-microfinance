@@ -25,7 +25,7 @@ export default function HomePage() {
     {
       title: "Mobile Money",
       image: "/bingetBirr.png",
-      description: "Stay connected to your finances anytime, anywhere with [Your Microfinance Name]’s secure and easy-to-use mobile money platform. Whether you're sending or receiving money, paying bills, topping up airtime, or repaying your loan, our platform brings the power of banking right to your phone."
+      description: "Stay connected to your finances anytime, anywhere with BINGET Microfinance’s secure and easy-to-use mobile money platform. Whether you're sending or receiving money, paying bills, topping up airtime, or repaying your loan, our platform brings the power of banking right to your phone."
     }
   ]
 
@@ -119,7 +119,7 @@ export default function HomePage() {
       </section>
 
       {/* Impact Section */}
-      <section className="py-20 px-6 md:px-20 bg-green-50 text-center">
+      {/* <section className="py-20 px-6 md:px-20 bg-green-50 text-center">
         <motion.h2
           className="text-3xl md:text-4xl font-semibold mb-10"
           initial={{ opacity: 0, y: 20 }}
@@ -144,7 +144,7 @@ export default function HomePage() {
             <p className="mt-2 text-gray-700">Communities Reached</p>
           </div>
         </div>
-      </section>
+      </section> */}
       <AboutUs/>
     </main>
   );

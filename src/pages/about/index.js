@@ -205,12 +205,12 @@ export default function AboutUs() {
                 viewport={{ once: true }}
                 variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
             >
-                <h2 className="text-2xl font-bold text-blue-900 mb-8 text-center">📊 Our Impact in Numbers</h2>
+                <h2 className="text-2xl font-bold text-blue-900 mb-8 text-center">📊 Our Impact</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
                     {[
-                        { value: '50K+', label: 'Clients Served' },
-                        { value: '$10M+', label: 'Loans Disbursed' },
-                        { value: '98%', label: 'Repayment Rate' },
+                        { value: '65K+', label: 'Clients Served' },
+                        { value: 'ETB 120M+', label: 'Loans Disbursed' },
+                        { value: '99.9%', label: 'Repayment Rate' },
                     ].map((stat, i) => (
                         <motion.div key={stat.label} variants={fadeInUp} custom={i}>
                             <p className="text-3xl font-bold text-blue-800">{stat.value}</p>
