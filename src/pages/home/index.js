@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -28,7 +27,7 @@ export default function HomePage() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          <Image
+          <img
             src="/images/microfinance-hero.jpg"
             alt="Microfinance Hero"
             width={900}
@@ -76,7 +75,7 @@ export default function HomePage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.2 }}
             >
-              <Image
+              <img
                 src={item.image}
                 alt={item.title}
                 width={400}
