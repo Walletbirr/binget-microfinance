@@ -13,7 +13,7 @@ const newsData = [
     date: "2018 EC",
     isImage: false,
     pdfIncluded: true,
-    pdf: '/pdf2.pdf'
+    pdf: '/pdf222.pdf'
   },
   {
     id: 4,
