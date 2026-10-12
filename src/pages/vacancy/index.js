@@ -91,7 +91,7 @@ export default function VacancyListingPage() {
                         className="bg-white rounded-xl shadow-md p-6 flex justify-between items-start hover:shadow-lg transition"
                     >
                         <div className="space-y-3">
-                            <h2 className="text-xl font-bold text-dark-900">
+                            <h2 className="text-xl font-bold text-gray-900">
                                 {job.title}
                             </h2>
 
@@ -131,7 +131,7 @@ export default function VacancyListingPage() {
                             >
                                 View more
                             </button>
-                            <span className="text-sm text-gray-500">1 day ago</span>
+
                         </div>
                     </div>
                 ))}
